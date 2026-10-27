@@ -1,0 +1,110 @@
+{
+  "HF677508": {
+    "taxon": "Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome",
+    "section": "Eumusa",
+    "lsc_len": 88338,
+    "irb_len": 35433,
+    "ssc_len": 10768,
+    "full_len": 169972,
+    "ssc_flip": false
+  },
+  "NC_028439": {
+    "taxon": "Musa_balbisiana_chloroplast",
+    "section": "Eumusa",
+    "lsc_len": 87828,
+    "irb_len": 35094,
+    "ssc_len": 11487,
+    "full_len": 169503,
+    "ssc_flip": false
+  },
+  "NC_058932": {
+    "taxon": "Musa_schizocarpa_chloroplast",
+    "section": "Eumusa",
+    "lsc_len": 88707,
+    "irb_len": 35200,
+    "ssc_len": 10714,
+    "full_len": 169821,
+    "ssc_flip": false
+  },
+  "OK012345": {
+    "taxon": "Musa_ornata_chloroplast",
+    "section": "Rhodochlamys",
+    "lsc_len": 88673,
+    "irb_len": 35186,
+    "ssc_len": 10851,
+    "full_len": 169896,
+    "ssc_flip": false
+  },
+  "NC_058927": {
+    "taxon": "Musa_velutina_chloroplast",
+    "section": "Rhodochlamys",
+    "lsc_len": 89392,
+    "irb_len": 34666,
+    "ssc_len": 11067,
+    "full_len": 169791,
+    "ssc_flip": false
+  },
+  "NC_058948": {
+    "taxon": "Musa_coccinea_chloroplast",
+    "section": "Callimusa",
+    "lsc_len": 88129,
+    "irb_len": 34129,
+    "ssc_len": 10439,
+    "full_len": 166826,
+    "ssc_flip": false
+  },
+  "NC_058953": {
+    "taxon": "Musa_beccarii_chloroplast",
+    "section": "Callimusa",
+    "lsc_len": 88164,
+    "irb_len": 34495,
+    "ssc_len": 11055,
+    "full_len": 168209,
+    "ssc_flip": false
+  },
+  "OP927815": {
+    "taxon": "Musa_textilis_cultivar_Ihalas_chloroplast",
+    "section": "Australimusa",
+    "lsc_len": 88150,
+    "irb_len": 34639,
+    "ssc_len": 11057,
+    "full_len": 168485,
+    "ssc_flip": false
+  },
+  "NC_058941": {
+    "taxon": "Musa_maclayi_subsp_maclayi_chloroplast",
+    "section": "Australimusa",
+    "lsc_len": 88243,
+    "irb_len": 34147,
+    "ssc_len": 11049,
+    "full_len": 167586,
+    "ssc_flip": false
+  },
+  "NC_058926": {
+    "taxon": "Ensete_ventricosum_chloroplast",
+    "section": "Outgroup",
+    "lsc_len": 88620,
+    "irb_len": 34358,
+    "ssc_len": 11075,
+    "full_len": 168411,
+    "ssc_flip": false
+  },
+  "NC_058947": {
+    "taxon": "Ensete_glaucum_chloroplast",
+    "section": "Outgroup",
+    "lsc_len": 87832,
+    "irb_len": 34636,
+    "ssc_len": 11144,
+    "full_len": 168248,
+    "ssc_flip": false
+  },
+  "NC_035637": {
+    "taxon": "Musella_lasiocarpa_chloroplast",
+    "section": "Outgroup",
+    "lsc_len": 87884,
+    "irb_len": 35075,
+    "ssc_len": 11144,
+    "full_len": 169178,
+    "ssc_flip": false
+  }
+}

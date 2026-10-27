@@ -1,0 +1,134 @@
+[
+  {
+    "accession": "HF677508.1",
+    "taxon": "Musa acuminata subsp. malaccensis chloroplast complete genome",
+    "section": "Eumusa",
+    "length": 169972,
+    "gc_percent": 36.823,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_028439.1",
+    "taxon": "Musa balbisiana chloroplast",
+    "section": "Eumusa",
+    "length": 169503,
+    "gc_percent": 36.762,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058932.1",
+    "taxon": "Musa schizocarpa chloroplast",
+    "section": "Eumusa",
+    "length": 169821,
+    "gc_percent": 36.895,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "OK012345.1",
+    "taxon": "Musa ornata chloroplast",
+    "section": "Rhodochlamys",
+    "length": 169896,
+    "gc_percent": 36.835,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058927.1",
+    "taxon": "Musa velutina chloroplast",
+    "section": "Rhodochlamys",
+    "length": 169791,
+    "gc_percent": 36.789,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058948.1",
+    "taxon": "Musa coccinea chloroplast",
+    "section": "Callimusa",
+    "length": 166826,
+    "gc_percent": 37.142,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058953.1",
+    "taxon": "Musa beccarii chloroplast",
+    "section": "Callimusa",
+    "length": 168209,
+    "gc_percent": 36.842,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "OP927815.1",
+    "taxon": "Musa textilis cultivar Ihalas chloroplast",
+    "section": "Australimusa",
+    "length": 168485,
+    "gc_percent": 36.825,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058941.1",
+    "taxon": "Musa maclayi subsp. maclayi chloroplast",
+    "section": "Australimusa",
+    "length": 167586,
+    "gc_percent": 36.875,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058926.1",
+    "taxon": "Ensete ventricosum chloroplast",
+    "section": "Outgroup",
+    "length": 168411,
+    "gc_percent": 37.085,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_058947.1",
+    "taxon": "Ensete glaucum chloroplast",
+    "section": "Outgroup",
+    "length": 168248,
+    "gc_percent": 37.057,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  },
+  {
+    "accession": "NC_035637.1",
+    "taxon": "Musella lasiocarpa chloroplast",
+    "section": "Outgroup",
+    "length": 169178,
+    "gc_percent": 36.733,
+    "ambiguous_count": 0,
+    "has_core_genes": true,
+    "qc_passed": true,
+    "qc_reason": "PASSED"
+  }
+]
