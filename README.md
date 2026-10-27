@@ -41,13 +41,13 @@ graph TD
 | Phase | Milestone Description | Status |
 | :---: | :--- | :---: |
 | **Phase 0** | **Architectural & Biological Specification:** Mathematical formulation of MRCA reconstruction, outgroup selection (*Ensete*, *Musella*), and analytical pipeline design. | **Completed** |
-| **Phase 1** | **Taxon Sampling, Ingestion & QC:** Automated NCBI Entrez pipeline, metadata structuring, GC content and NUPT filtering. | **In Progress** |
-| **Phase 2** | **Exact IR Detection & Phase Normalization:** Seed-and-extend detection of $[LSC, IR_B, SSC, IR_A]$ boundaries, $trnH\text{-GUG}$ circular standardization, and SSC flip-flop resolution. | **Queued** |
-| **Phase 3** | **Partitioned MSA & Phylogenomics:** Partitioned MAFFT alignments and IQ-TREE 2 species tree inference with ModelFinder and 1,000 UFBoot. | **Queued** |
-| **Phase 4** | **Bayesian Ancestral State Reconstruction (ASR):** Crown node state inference via IQ-TREE 2 `-asr`, parsimonious indel resolution, and circular quadripartite assembly. | **Queued** |
-| **Phase 5** | **Feature Annotation & Biological Validation:** Alignment-guided lift-over, trans-spliced $rps12$ assembly, $\psi ycf1$ boundary checks, Table 11 translation audit, and PGA/GeSeq export. | **Queued** |
-| **Phase 6** | **Diversity Projection & Scientific Visualization:** Sliding-window nucleotide diversity ($\pi$), Shannon entropy ($H$), GC skew, and publication figures adhering to Edward Tufte principles. | **Queued** |
-| **Phase 7** | **Modular Notebook Packaging:** Verified execution across local Windows and Google Colab environments. | **Queued** |
+| **Phase 1** | **Taxon Sampling, Ingestion & QC:** Automated NCBI Entrez pipeline, metadata structuring, GC content and NUPT filtering. | **Completed** |
+| **Phase 2** | **Exact IR Detection & Phase Normalization:** Seed-and-extend detection of $[LSC, IR_B, SSC, IR_A]$ boundaries, $trnH\text{-GUG}$ circular standardization, and SSC flip-flop resolution. | **Completed** |
+| **Phase 3** | **Partitioned MSA & Phylogenomics:** Partitioned MAFFT alignments and IQ-TREE 2 species tree inference with ModelFinder and 1,000 UFBoot. | **Completed** |
+| **Phase 4** | **Bayesian Ancestral State Reconstruction (ASR):** Crown node state inference via IQ-TREE 2 `-asr`, parsimonious indel resolution, and circular quadripartite assembly. | **Completed** |
+| **Phase 5** | **Feature Annotation & Biological Validation:** Alignment-guided lift-over, trans-spliced $rps12$ assembly, $\psi ycf1$ boundary checks, Table 11 translation audit, and PGA/GeSeq export. | **Completed** |
+| **Phase 6** | **Diversity Projection & Scientific Visualization:** Sliding-window nucleotide diversity ($\pi$), Shannon entropy ($H$), GC skew, and publication figures adhering to Edward Tufte principles. | **Completed** |
+| **Phase 7** | **Modular Notebook Packaging:** Verified execution across local Windows and Google Colab environments. | **Completed** |
 
 ---
 

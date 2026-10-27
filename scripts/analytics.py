@@ -152,5 +152,45 @@ def compute_sliding_window_metrics(
     return df
 
 
+def create_full_concatenated_alignment() -> Path:
+    """Concatenates aligned partitions (LSC, IR_B, SSC, revcomp(IR_B)) into a full alignment."""
+    full_aln_path = PROCESSED_DIR / "aligned_FULL.fasta"
+    if full_aln_path.is_file() and full_aln_path.stat().st_size > 1000:
+        return full_aln_path
+
+    lsc_aln = AlignIO.read(str(PROCESSED_DIR / "aligned_LSC.fasta"), "fasta")
+    irb_aln = AlignIO.read(str(PROCESSED_DIR / "aligned_IR_B.fasta"), "fasta")
+    ssc_aln = AlignIO.read(str(PROCESSED_DIR / "aligned_SSC.fasta"), "fasta")
+
+    # Map records by taxon ID
+    lsc_map = {r.id: str(r.seq) for r in lsc_aln}
+    irb_map = {r.id: str(r.seq) for r in irb_aln}
+    ssc_map = {r.id: str(r.seq) for r in ssc_aln}
+
+    concatenated_records = []
+    from Bio.Seq import Seq
+    from Bio.SeqRecord import SeqRecord
+
+    rc_map = str.maketrans("ACGTURYKMSWBDHVN-", "TGCAAYRMKSWVHDBN-")
+
+    for r in lsc_aln:
+        tid = r.id
+        l_seq = lsc_map[tid]
+        b_seq = irb_map[tid]
+        s_seq = ssc_map[tid]
+        a_seq = b_seq.translate(rc_map)[::-1]
+        full_seq = l_seq + b_seq + s_seq + a_seq
+        concatenated_records.append(SeqRecord(Seq(full_seq), id=tid, description="Concatenated aligned plastome"))
+
+    SeqIO.write(concatenated_records, full_aln_path, "fasta")
+    print(f"[Analytics] Created full quadripartite alignment: {full_aln_path} ({len(concatenated_records[0].seq)} columns)")
+    return full_aln_path
+
+
 if __name__ == "__main__":
-    pass
+    aln_file = create_full_concatenated_alignment()
+    manifest_file = DATA_DIR / "musa_mrca_manifest.json"
+    if aln_file.is_file() and manifest_file.is_file():
+        compute_sliding_window_metrics(aln_file, manifest_file)
+    else:
+        print("Prerequisite files missing.")

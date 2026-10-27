@@ -188,4 +188,19 @@ def plot_junction_shifts(junctions_path: Path, output_prefix: Path) -> Path:
 
 
 if __name__ == "__main__":
-    pass
+    manifest_file = DATA_DIR / "musa_mrca_manifest.json"
+    metrics_file = DATA_DIR / "musa_sliding_window_metrics.csv"
+    junctions_file = DATA_DIR / "tier1_ir_junctions.json"
+
+    if manifest_file.is_file():
+        circ_prefix = OUTPUT_DIR / "figure_circular_plastome"
+        plot_circular_plastome(manifest_file, circ_prefix)
+
+    if metrics_file.is_file() and manifest_file.is_file():
+        metrics_df = pd.read_csv(metrics_file)
+        land_prefix = OUTPUT_DIR / "figure_divergence_landscape"
+        plot_divergence_landscape(metrics_df, manifest_file, land_prefix)
+
+    if junctions_file.is_file():
+        junc_prefix = OUTPUT_DIR / "figure_junction_shifts"
+        plot_junction_shifts(junctions_file, junc_prefix)

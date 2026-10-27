@@ -1,0 +1,23 @@
+{
+  "genome_length": 168732,
+  "lsc": {
+    "start": 0,
+    "end": 88674,
+    "length": 88674
+  },
+  "irb": {
+    "start": 88674,
+    "end": 123180,
+    "length": 34506
+  },
+  "ssc": {
+    "start": 123180,
+    "end": 134226,
+    "length": 11046
+  },
+  "ira": {
+    "start": 134226,
+    "end": 168732,
+    "length": 34506
+  }
+}

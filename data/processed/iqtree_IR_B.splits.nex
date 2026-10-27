@@ -1,0 +1,66 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=12;
+TAXLABELS
+[1] 'Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome'
+[2] 'Musa_balbisiana_chloroplast'
+[3] 'Musa_schizocarpa_chloroplast'
+[4] 'Musa_ornata_chloroplast'
+[5] 'Musa_velutina_chloroplast'
+[6] 'Musa_coccinea_chloroplast'
+[7] 'Musa_beccarii_chloroplast'
+[8] 'Musa_textilis_cultivar_Ihalas_chloroplast'
+[9] 'Musa_maclayi_subsp_maclayi_chloroplast'
+[10] 'Ensete_ventricosum_chloroplast'
+[11] 'Ensete_glaucum_chloroplast'
+[12] 'Musella_lasiocarpa_chloroplast'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=12 nsplits=39;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 1,
+	100	 3,
+	100	 5,
+	47	 3 5,
+	10	 1 3 5,
+	100	 4,
+	97	 1 3 4 5,
+	100	 2,
+	100	 1 2 3 4 5,
+	100	 6,
+	100	 7,
+	100	 8,
+	54	 7 8,
+	100	 9,
+	100	 7 8 9,
+	100	 6 7 8 9,
+	100	 10 11 12,
+	100	 10,
+	100	 11,
+	100	 10 11,
+	100	 12,
+	37	 7 9,
+	49	 4 5,
+	37	 3 4 5,
+	36	 1 4 5,
+	3	 1 2,
+	2	 1 2 4,
+	1	 1 2 4 5,
+	12	 1 4,
+	9	 8 9,
+	2	 1 3 4,
+	4	 1 3,
+	1	 1 2 3 5,
+	0	 2 3,
+	0	 1 5,
+	0	 2 4 5,
+	0	 1 2 3,
+	0	 2 4,
+	0	 3 4,
+;
+END; [Splits]
+

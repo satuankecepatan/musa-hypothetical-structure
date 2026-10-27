@@ -1,0 +1,659 @@
+[
+  {
+    "gene": "psbA",
+    "length": 1062,
+    "start": 202,
+    "end": 1264,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "matK",
+    "length": 1536,
+    "start": 1879,
+    "end": 3415,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbK",
+    "length": 186,
+    "start": 8152,
+    "end": 8338,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbI",
+    "length": 111,
+    "start": 8778,
+    "end": 8889,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "atpA",
+    "length": 1524,
+    "start": 11204,
+    "end": 12728,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "atpF",
+    "length": 555,
+    "start": 12801,
+    "end": 13356,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (TAC); 5 premature stop codons"
+  },
+  {
+    "gene": "atpH",
+    "length": 246,
+    "start": 14691,
+    "end": 14937,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "atpI",
+    "length": 744,
+    "start": 16172,
+    "end": 16916,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rps2",
+    "length": 711,
+    "start": 17197,
+    "end": 17908,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpoC1",
+    "length": 2061,
+    "start": 22477,
+    "end": 24538,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (CAA); 9 premature stop codons"
+  },
+  {
+    "gene": "rpoB",
+    "length": 3225,
+    "start": 25280,
+    "end": 28505,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Atypical start codon (ATT)"
+  },
+  {
+    "gene": "petN",
+    "length": 90,
+    "start": 30706,
+    "end": 30796,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbM",
+    "length": 105,
+    "start": 32073,
+    "end": 32178,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbD",
+    "length": 1062,
+    "start": 35839,
+    "end": 36901,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbC",
+    "length": 1422,
+    "start": 36848,
+    "end": 38270,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbZ",
+    "length": 189,
+    "start": 38844,
+    "end": 39033,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rps14",
+    "length": 303,
+    "start": 39792,
+    "end": 40095,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psaA",
+    "length": 2253,
+    "start": 42475,
+    "end": 44728,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ycf3",
+    "length": 507,
+    "start": 45379,
+    "end": 45886,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (ATA); 13 premature stop codons"
+  },
+  {
+    "gene": "ndhJ",
+    "length": 480,
+    "start": 52020,
+    "end": 52500,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhC",
+    "length": 363,
+    "start": 53343,
+    "end": 53706,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "atpE",
+    "length": 408,
+    "start": 56200,
+    "end": 56608,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "atpB",
+    "length": 1497,
+    "start": 56604,
+    "end": 58101,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rbcL",
+    "length": 1464,
+    "start": 58892,
+    "end": 60356,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psaI",
+    "length": 111,
+    "start": 63295,
+    "end": 63406,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ycf4",
+    "length": 555,
+    "start": 63757,
+    "end": 64312,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "cemA",
+    "length": 690,
+    "start": 64944,
+    "end": 65634,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "petA",
+    "length": 963,
+    "start": 65855,
+    "end": 66818,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbJ",
+    "length": 123,
+    "start": 67824,
+    "end": 67947,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbL",
+    "length": 117,
+    "start": 68072,
+    "end": 68189,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbF",
+    "length": 120,
+    "start": 68211,
+    "end": 68331,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "petL",
+    "length": 96,
+    "start": 70018,
+    "end": 70114,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "petG",
+    "length": 114,
+    "start": 70286,
+    "end": 70400,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psaJ",
+    "length": 129,
+    "start": 71204,
+    "end": 71333,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl33",
+    "length": 201,
+    "start": 71893,
+    "end": 72094,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rps18",
+    "length": 306,
+    "start": 72278,
+    "end": 72584,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl20",
+    "length": 354,
+    "start": 72859,
+    "end": 73213,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "clpP",
+    "length": 621,
+    "start": 74183,
+    "end": 74804,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (TAC); 9 premature stop codons"
+  },
+  {
+    "gene": "psbB",
+    "length": 1527,
+    "start": 76708,
+    "end": 78235,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbT",
+    "length": 102,
+    "start": 78411,
+    "end": 78513,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbN",
+    "length": 132,
+    "start": 78577,
+    "end": 78709,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "psbH",
+    "length": 222,
+    "start": 78820,
+    "end": 79042,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rps11",
+    "length": 417,
+    "start": 83324,
+    "end": 83741,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "infA",
+    "length": 234,
+    "start": 84093,
+    "end": 84327,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl14",
+    "length": 369,
+    "start": 85049,
+    "end": 85418,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl16",
+    "length": 411,
+    "start": 85535,
+    "end": 85946,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Atypical start codon (AAC)"
+  },
+  {
+    "gene": "rps3",
+    "length": 657,
+    "start": 87128,
+    "end": 87785,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl2",
+    "length": 816,
+    "start": 166990,
+    "end": 167806,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (ATA); 10 premature stop codons"
+  },
+  {
+    "gene": "rpl23",
+    "length": 282,
+    "start": 166684,
+    "end": 166966,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ycf2",
+    "length": 7011,
+    "start": 159272,
+    "end": 166283,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (ATA); 5 premature stop codons"
+  },
+  {
+    "gene": "ycf15",
+    "length": 506,
+    "start": 98248,
+    "end": 98754,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Non-triplet length (506 bp); 7 premature stop codons"
+  },
+  {
+    "gene": "ndhB",
+    "length": 1533,
+    "start": 155348,
+    "end": 156881,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "14 premature stop codons"
+  },
+  {
+    "gene": "rps7",
+    "length": 468,
+    "start": 154576,
+    "end": 155044,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ycf68",
+    "length": 398,
+    "start": 107836,
+    "end": 108234,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Non-triplet length (398 bp); 7 premature stop codons"
+  },
+  {
+    "gene": "ycf1",
+    "length": 5973,
+    "start": 137192,
+    "end": 143165,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (TTC); 103 premature stop codons"
+  },
+  {
+    "gene": "rps15",
+    "length": 273,
+    "start": 120591,
+    "end": 120864,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhH",
+    "length": 1182,
+    "start": 120967,
+    "end": 122149,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhA",
+    "length": 553,
+    "start": 122150,
+    "end": 122703,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Non-triplet length (553 bp)"
+  },
+  {
+    "gene": "ccsA",
+    "length": 990,
+    "start": 127282,
+    "end": 128272,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhE",
+    "length": 306,
+    "start": 131096,
+    "end": 131402,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhG",
+    "length": 531,
+    "start": 131525,
+    "end": 132056,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhI",
+    "length": 543,
+    "start": 132458,
+    "end": 133001,
+    "strand": -1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhA",
+    "length": 1092,
+    "start": 122150,
+    "end": 123242,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "12 premature stop codons"
+  },
+  {
+    "gene": "ndhH",
+    "length": 1182,
+    "start": 120967,
+    "end": 122149,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rps15",
+    "length": 273,
+    "start": 120591,
+    "end": 120864,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ycf1",
+    "length": 5973,
+    "start": 137192,
+    "end": 143165,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (TTC); 103 premature stop codons"
+  },
+  {
+    "gene": "ycf68",
+    "length": 398,
+    "start": 107836,
+    "end": 108234,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Non-triplet length (398 bp); 7 premature stop codons"
+  },
+  {
+    "gene": "rps7",
+    "length": 468,
+    "start": 154576,
+    "end": 155044,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "ndhB",
+    "length": 1533,
+    "start": 155348,
+    "end": 156881,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "14 premature stop codons"
+  },
+  {
+    "gene": "ycf15",
+    "length": 506,
+    "start": 98248,
+    "end": 98754,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Non-triplet length (506 bp); 7 premature stop codons"
+  },
+  {
+    "gene": "ycf2",
+    "length": 7011,
+    "start": 159272,
+    "end": 166283,
+    "strand": -1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (ATA); 5 premature stop codons"
+  },
+  {
+    "gene": "rpl23",
+    "length": 282,
+    "start": 166684,
+    "end": 166966,
+    "strand": 1,
+    "valid_orf": true,
+    "notes": "Intact functional ORF"
+  },
+  {
+    "gene": "rpl2",
+    "length": 816,
+    "start": 166990,
+    "end": 167806,
+    "strand": 1,
+    "valid_orf": false,
+    "notes": "Atypical start codon (ATA); 10 premature stop codons"
+  }
+]

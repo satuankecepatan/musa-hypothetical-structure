@@ -1,0 +1,180 @@
+IQ-TREE 2.3.6 built Aug  1 2024
+
+Input file name: D:\Magister\Proyek\musa-hypothetical-structure\data\processed\aligned_LSC.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 575493
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 12 sequences with 95544 nucleotide sites
+Number of constant sites: 90994 (= 95.2378% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 90994 (= 95.2378% of all sites)
+Number of parsimony informative sites: 1985
+Number of distinct site patterns: 2242
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+I+G4
+
+Rate parameter R:
+
+  A-C: 1.0325
+  A-G: 2.1783
+  A-T: 0.6683
+  C-G: 0.1658
+  C-T: 1.9061
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3171
+  pi(C) = 0.1803
+  pi(G) = 0.1719
+  pi(T) = 0.3306
+
+Rate matrix Q:
+
+  A   -0.9228    0.2198    0.4421    0.2609
+  C    0.3866    -1.164   0.03364    0.7441
+  G    0.8156   0.03529    -1.241    0.3904
+  T    0.2502    0.4058     0.203    -0.859
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.7408
+Gamma shape alpha: 0.8002
+
+ Category  Relative_rate  Proportion
+  0         0              0.7408
+  1         0.3688         0.0648
+  2         1.571          0.0648
+  3         3.692          0.0648
+  4         9.799          0.0648
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -165409.8359 (s.e. 516.9475)
+Unconstrained log-likelihood (without tree): -257019.6336
+Number of free parameters (#branches + #model parameters): 31
+Akaike information criterion (AIC) score: 330881.6718
+Corrected Akaike information criterion (AICc) score: 330881.6926
+Bayesian information criterion (BIC) score: 331175.1594
+
+Total tree length (sum of branch lengths): 0.0643
+Sum of internal branch lengths: 0.0269 (41.7505% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Musella_lasiocarpa_chloroplast' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
+                                             +-------Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome
+                                          +--| (Node5/90)
+                                          |  |  +------Musa_ornata_chloroplast
+                                          |  +--| (Node6/95)
+                                          |     +-----------Musa_velutina_chloroplast
+                                  +-------| (Node4/100)
+                                  |       +-------------Musa_schizocarpa_chloroplast
+                 +----------------| (Node3/100)
+                 |                +--------------Musa_balbisiana_chloroplast
++----------------| (Node2/100)
+|                |                  +--------------------Musa_coccinea_chloroplast
+|                +------------------| (Node7/100)
+|                                   |                   +--Musa_beccarii_chloroplast
+|                                   |                +--| (Node9/64)
+|                                   |                |  +--Musa_maclayi_subsp_maclayi_chloroplast
+|                                   +----------------| (Node8/100)
+|                                                    +--Musa_textilis_cultivar_Ihalas_chloroplast
+| (Node1)
+|                             +--------------------------Ensete_ventricosum_chloroplast
++-----------------------------| (Node10/100)
+|                             +------------------Ensete_glaucum_chloroplast
+|
++--------------------------Musella_lasiocarpa_chloroplast
+
+Tree in newick format:
+
+(((((Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome:0.0020421871,(Musa_ornata_chloroplast:0.0016247083,Musa_velutina_chloroplast:0.0028264647)Node6/95:0.0006383840)Node5/90:0.0003499211,Musa_schizocarpa_chloroplast:0.0034100142)Node4/100:0.0020375465,Musa_balbisiana_chloroplast:0.0036522755)Node3/100:0.0040584806,(Musa_coccinea_chloroplast:0.0050856395,((Musa_beccarii_chloroplast:0.0004526460,Musa_maclayi_subsp_maclayi_chloroplast:0.0007290830)Node9/64:0.0000667720,Musa_textilis_cultivar_Ihalas_chloroplast:0.0002850226)Node8/100:0.0041656779)Node7/100:0.0044971486)Node2/100:0.0039773214,(Ensete_ventricosum_chloroplast:0.0063886258,Ensete_glaucum_chloroplast:0.0045829239)Node10/100:0.0070728015,Musella_lasiocarpa_chloroplast:0.0064005961)Node1;
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -165409.836140
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
+                                             +-------Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome
+                                          +--| (90)
+                                          |  |  +------Musa_ornata_chloroplast
+                                          |  +--| (95)
+                                          |     +-----------Musa_velutina_chloroplast
+                                  +-------| (100)
+                                  |       +-------------Musa_schizocarpa_chloroplast
+                 +----------------| (100)
+                 |                +--------------Musa_balbisiana_chloroplast
++----------------|
+|                |                  +--------------------Musa_coccinea_chloroplast
+|                +------------------| (100)
+|                                   |                    +--Musa_beccarii_chloroplast
+|                                   |                 +--| (64)
+|                                   |                 |  +--Musa_maclayi_subsp_maclayi_chloroplast
+|                                   +-----------------| (100)
+|                                                     +--Musa_textilis_cultivar_Ihalas_chloroplast
+| (100)
+|                             +--------------------------Ensete_ventricosum_chloroplast
++-----------------------------| (100)
+|                             +------------------Ensete_glaucum_chloroplast
+|
++--------------------------Musella_lasiocarpa_chloroplast
+
+
+Consensus tree in newick format: 
+
+(((((Musa_acuminata_subsp_malaccensis_chloroplast_complete_genome:0.0020435660,(Musa_ornata_chloroplast:0.0016243740,Musa_velutina_chloroplast:0.0028266346)95:0.0006392642)90:0.0003494095,Musa_schizocarpa_chloroplast:0.0034110351)100:0.0020370218,Musa_balbisiana_chloroplast:0.0036532725)100:0.0040588589,(Musa_coccinea_chloroplast:0.0050868356,((Musa_beccarii_chloroplast:0.0004526144,Musa_maclayi_subsp_maclayi_chloroplast:0.0007293241)64:0.0000661142,Musa_textilis_cultivar_Ihalas_chloroplast:0.0002850319)100:0.0041669214)100:0.0044971751):0.0039772975,(Ensete_ventricosum_chloroplast:0.0063894533,Ensete_glaucum_chloroplast:0.0045838122)100:0.0070730339,Musella_lasiocarpa_chloroplast:0.0064016971)100;
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t D:\Magister\Proyek\musa-hypothetical-structure\data\processed\iqtree_LSC.treefile -m "GTR{1.03253,2.1783,0.668302,0.165755,1.90609}+F{0.317122,0.180318,0.171921,0.33064}+I{0.74078}+G4{0.800225}" --length 95544
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s D:\Magister\Proyek\musa-hypothetical-structure\data\processed\aligned_LSC.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s D:\Magister\Proyek\musa-hypothetical-structure\data\processed\aligned_LSC.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Tue Oct 27 23:59:25 2026
+Total CPU time used: 137.859375 seconds (0h:2m:17s)
+Total wall-clock time used: 84.682697 seconds (0h:1m:24s)
+
